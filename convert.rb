@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# convert.rb: convert PKGBUILD file to Chromebrew style recipe
+#
 # Usage:
 #   convert.rb <PKGBUILD file>
 
