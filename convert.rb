@@ -248,5 +248,5 @@ end
 
 File.write('converted.rb', @converted_buf)
 puts "\e[1;32m""Completed!""\e[0m"
-puts "\e[1;36m""let rubocop do the rest jobs :)""\e[0m"
+puts "\e[1;36m""let rubocop do the rest of the jobs :)""\e[0m"
 system 'rubocop -a -x converted.rb'
